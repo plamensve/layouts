@@ -1,0 +1,69 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    grid-template-rows: 240px 60px 100px 150px;
+    gap: 1.5em;
+
+    grid-template-areas:
+        "item1 item3 item3 item4"
+        "item1 item5 item6 item4"
+        "item2 item5 item6 item4"
+        "item2 item8 item7 item7"
+    ;
+}
+
+.widget {
+    padding: 2em;
+    background: #eee;
+    border-radius: 0.3em;
+}
+
+.item-1 {
+    grid-area: item1;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+.item-2 {
+    grid-area: item2;
+}
+
+.item-3 {
+    grid-area: item3;
+}
+
+.item-4 {
+    grid-area: item4;
+    background: linear-gradient(to bottom, #3d6ec9, #2a5298);
+}
+
+.item-5 {
+    grid-area: item5;
+}
+
+.item-6 {
+    grid-area: item6;
+}
+
+.item-7 {
+    grid-area: item7;
+    background: linear-gradient(to right, #3d6ec9, #2a5298);
+}
+
+.item-8 {
+    grid-area: item8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
